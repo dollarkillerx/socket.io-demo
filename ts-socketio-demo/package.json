@@ -10,11 +10,18 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "crypto-js": "^4.2.0",
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.2",
     "koa": "^2.15.3",
+    "koa-router": "^13.0.1",
     "socket.io": "^4.7.5"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/http-proxy-middleware": "^1.0.0",
     "@types/koa": "^2.15.0",
+    "@types/koa-router": "^7.4.8",
     "@types/node": "^22.5.5",
     "@types/socket.io-client": "^3.0.0",
     "ts-node": "^10.9.2",
